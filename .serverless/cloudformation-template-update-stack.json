@@ -161,7 +161,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-typescapi/dev/1613770054254-2021-02-19T21:27:34.254Z/aws-typescapi.zip"
+          "S3Key": "serverless/aws-typescapi/dev/1613772141888-2021-02-19T22:02:21.888Z/aws-typescapi.zip"
         },
         "Handler": "lambdas/getCondition.handler",
         "Runtime": "nodejs14.x",
@@ -184,14 +184,14 @@
         "GetConditionLogGroup"
       ]
     },
-    "GetConditionLambdaVersionILpDgsGLYeAZJkxOdOoGIsFvC12y9OjduIottVjtQY": {
+    "GetConditionLambdaVersionvQGQZdEklV7HYvY7pgiOA5XCmOKrZpt0gH7EWNHs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetConditionLambdaFunction"
         },
-        "CodeSha256": "31jRpkjuko/OODVeqcbYfFsPAMWvco6gTKDOP+KQAww="
+        "CodeSha256": "L0u/mc7/vdMH5+eqhI+KwMOtDevAYa5e2C5FZtarbaM="
       }
     },
     "ApiGatewayRestApi": {
@@ -310,7 +310,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1613770034843": {
+    "ApiGatewayDeployment1613772132298": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -370,7 +370,7 @@
     "GetConditionLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetConditionLambdaVersionILpDgsGLYeAZJkxOdOoGIsFvC12y9OjduIottVjtQY"
+        "Ref": "GetConditionLambdaVersionvQGQZdEklV7HYvY7pgiOA5XCmOKrZpt0gH7EWNHs"
       }
     },
     "ServiceEndpoint": {
